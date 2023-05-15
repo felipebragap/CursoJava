@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class rakrank {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        int intValue = scan.nextInt();
+        double doubleValue = scan.nextDouble();
+        scan.nextLine();
+         // Limpar a nova linha pendente no buffer de entrada
+
+        String stringValue = scan.nextLine();
+
+        // Imprimir os valores de acordo com o formato de saída
+        System.out.println("String: " + stringValue);
+        System.out.println("Double: " + doubleValue);
+        System.out.println("Int: " + intValue);
+
+        scan.close();
+    }
+}
